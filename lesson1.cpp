@@ -5,19 +5,18 @@ using namespace std;
 const int N = 10;
 int ids[N] = { 9, 10,18,23,32,41,45,60,72 };
 
-main() {
+int main() {
 	int search = 45;
 	
 	// Linear Searching
 	int result = -1; // -1 means not found
 
-	/*
 	for (int i = 0; i < N; i++) {
 		if (ids[i] == search) {
 			result = i;
 			break;
 		}
-	}*/
+	}
 	
 	if (result != -1) {
 		cout << "Found at " << result << endl;
@@ -27,7 +26,7 @@ main() {
 	}
 
 	// Bi Searching
-	int result = -1;
+	result = -1;
 	int top = N - 1;
 	int bottom = 0;
 	int middle;

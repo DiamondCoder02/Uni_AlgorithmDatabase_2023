@@ -9,7 +9,6 @@ using namespace std;
 const int N = 10;
 int ids[N] = { 9,10,18,23,32,41,45,60,72 };
 
-/*
 int main() {
 	int search = 45;
 	int steps = 0;
@@ -64,4 +63,3 @@ int main() {
 		cout << "Not found" << ", steps taken: " << steps << endl;
 	}
 }
-*/

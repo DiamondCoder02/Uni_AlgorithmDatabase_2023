@@ -52,29 +52,6 @@ int main()
 		sTree[minJ][minI] = min;
 	}
 
-/*
-	for(int k = 0; k < N-1; k++) {
-		min = 0;
-		minI = 0;
-		minJ = 0;
-		for(int i = 0; i < N; i++) {
-			if(check[i]) {
-				for(int j = 0; j < N; j++) {
-					if(!check[j] && graph[i][j] != 0) {
-						if(min == 0 || min > graph[i][j]) {
-							min = graph[i][j];
-							minI = i;
-							minJ = j;
-						}
-					}
-				}
-			}
-		}
-		check[minJ] = true;
-		sTree[minI][minJ] = min;
-		sTree[minJ][minI] = min;
-	}*/
-
     printEdges(sTree, true);
 }
 
